@@ -810,8 +810,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
+  min-height: 80vh;
   background: linear-gradient(#d86929d0, #ffffff21, #0b6128a8), url("../img/cta-bg2.jpg") fixed center center;
   background-size: cover;
+  background-position: 0% 25%;
   padding: 60px 0;
 }
 
@@ -905,7 +907,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
-  left: -10px;
+  left: 0px;
   width: 100%;
   right: 0;
   bottom: -60px;
